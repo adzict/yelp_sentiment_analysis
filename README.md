@@ -212,15 +212,18 @@ This score was calculated by comparing the true label of the reviews (positive/n
 
 ![vader_conf_matrix](https://github.com/adzict/yelp_sentiment_analysis/blob/main/images/vader_conf_matrix.png)
 
+Here is the Classification report that helps us clarify the multi-class matrix we are seeing:
+
 |             | Precision   | Recall | F1-Score | Support |
 | ----------- | ----------- | -------| -------- | ------- |
-| negative    | 0.68        | 0.39   | 0.49     |
-| neutral     | 0.23        | 0.10   | 0.14     |
-| positive    | 0.76        | 0.93   | 0.84     |
+| negative    | 0.68        | 0.39   | 0.49     | 38245   |
+| neutral     | 0.23        | 0.10   | 0.14     | 35268   |
+| positive    | 0.76        | 0.93   | 0.84     | 155617  |
+| accuracy    |             |        | 0.71     | 229130  |
+| macro avg   | 0.55        | 0.47   | 0.49     | 229130  |
+| weighted avg| 0.66        | 0.71   | 0.67     | 229130  |
 
-| accuracy    |             |
-| macro avg   | 0.55        | 0.47   |
-| weighted avg| 0.66        | 0.71   |
+It is clear that the class "positive" has outnumbered the "negative" and the "neutral" classes - therefore the pretty good precision, recall and overall f1-score! Having in mind that the neutral class was formed by only one review (3) the result of the prediction is understandable. I find the results of precision and overall f1-score for negative reviews to be satisfying.
 
 ### 5. Predicting the sentiment using different classifiers
 <a name="modeling"></a>
