@@ -206,6 +206,22 @@ By looking at categories of top 30 businesses with an aggregated business star l
 ### 4. Accuracy results of Sentiment Analysis using VADER
 <a name="vader"></a>
 
+The goal of our Sentiment Analysis of Yelp reviews is to determine if the review is positive, negative or neutral. NLTK Vader proved to be fairly good in this sense, I achieved an accuracy score of 0.71.
+
+This score was calculated by comparing the true label of the reviews (positive/negative/neutral) with the predicted label that was formed based on the compound score taken from the VADER Polarity score, also called the compound label. I have taken positive reviews to have the score of 4 and 5, neutral reviews have the score of 3, and negative reviews are all reviews that are starred with 1 or 2. I have also based my compound label as negative being less than 0.5, neutral if the score is less than 0.5, and positive for all other compund scores. The confusion matrix I got from the analysis looks like this:
+
+![vader_conf_matrix](https://github.com/adzict/yelp_sentiment_analysis/blob/main/images/vader_conf_matrix.png)
+
+|             | Precision   | Recall | F1-Score | Support |
+| ----------- | ----------- | -------| -------- | ------- |
+| negative    | 0.68        | 0.39   | 0.49     |
+| neutral     | 0.23        | 0.10   | 0.14     |
+| positive    | 0.76        | 0.93   | 0.84     |
+
+| accuracy    |             |
+| macro avg   | 0.55        | 0.47   |
+| weighted avg| 0.66        | 0.71   |
+
 ### 5. Predicting the sentiment using different classifiers
 <a name="modeling"></a>
 
