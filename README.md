@@ -228,6 +228,10 @@ It is clear that the class "positive" has outnumbered the "negative" and the "ne
 ### 5. Predicting the sentiment using different classifiers
 <a name="modeling"></a>
 
+As part of the project, I performed prediction and eveluation of the reviews using the following classifiers: Logistic Regression, Multinomial Naive Bayes, Decision Tree, Random Forests, KNN, AdaBoost, and XGBoost. My decision to use these algorithms was based on using a set of different classifiers, from simple to complex, and then evaluate the performance of each algorithm. Prior to fitting models, I have vectorized the data using TfidfVectorizer, and a StandardScaler as my Feature scaling tool. Here are the results of said classifiers:
+
+
+
 ### 6. Conclusion and Feature Recommendations
 <a name="conclusion"></a>
 
