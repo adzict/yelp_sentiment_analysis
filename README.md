@@ -12,11 +12,11 @@
    * [ 2. File Descriptions ](#File_Descriptions) 
 5. [ Feature Notebooks and Deliverables ](#Notebooks_deliverables)
 6. [ Most Important Findings ](#Findings)
-   * [1. What is the correlation between budget and profit? Which budget ranges should be considered for making a Box Office success?](#budget_profit)
-   * [2. Do actors/actresses and directors play a role in a movie's success?](#var)
-   * [3. How does a movie's score rating impact profit?](#score)
-   * [4. How do genres play in with profit and profit margin?](#genres)
-   * [5. Are duration and content rating relevant to profit?](#duration_rating)
+   * [1. Which categories of businesses are getting top reviews?](#business_cat)
+   * [2. How often do businesses get reviewed over time?](#frequency_reviews)
+   * [3. Which business categories get bad reviews?](#bad_reviews)
+   * [4. Accuracy results of Sentiment Analysis using VADER](#vader)
+   * [5. Predicting the sentiment using different classifiers](#modeling)
    * [6. Conclusion and Feature Recommendations](#conclusion)
 7. [ Acknowledgments ](#Acknowledgments)
 8. [ Licences ](#Licences)
@@ -25,7 +25,7 @@
 ## Project Introduction
 <a name="Project_Introduction"></a>
 
-Predict the sentiment of a Yelp review, and make actionable recommendations to businesses that will help them understand customer needs, and monitor customer feedback.
+The aim of the project is to predict the sentiment of a Yelp review, and make actionable recommendations to businesses that will help them understand customer needs, and monitor customer feedback.
 
 ## Technologies Used
 <a name="Technologies_Used"></a>
@@ -35,6 +35,7 @@ Predict the sentiment of a Yelp review, and make actionable recommendations to b
 * [Matplotlib](https://matplotlib.org/)
 * [Seaborn](https://seaborn.pydata.org/)
 * [NLTK](https://www.nltk.org/)
+* [scikit-learn](https://scikit-learn.org/stable/)
 
 ## Methods Used
 <a name="Methods_Used"></a>
@@ -43,6 +44,10 @@ Predict the sentiment of a Yelp review, and make actionable recommendations to b
 * Descriptive Statistics
 * Feature Engineering
 * Data Visualization
+* Text Preprocessing
+* Sentiment Analysis
+* Predictive Modeling and Hyperparameter Tuning
+* Evaluating Model Results
 * Reporting
 
 ## Project Description
@@ -61,7 +66,6 @@ A very important step is asking questions we need to give answers to. As part of
 * How do the categories of trending and top reviewed businesses differ?
 * Which business categories get bad reviews?
 * What are the most common words in bad reviews?
-* Are reviews influenced by a user's friends?
 * Build a machine learning model to predict the sentiment of Yelp reviews.
 * Predict or recommend something else.
 
@@ -73,7 +77,8 @@ link the dataset
 ### File Descriptions
 <a name="File_Descriptions"></a>
 
-link all folders and files in the repository
+The dataset used for this project can be found on the data.world website: [yelp_reviews.csv](https://data.world/brianray/yelp-reviews)
+The complete Yelp Dataset can be found on their website: [Yelp Dataset](https://www.yelp.com/dataset) 
 
 ## Feature Notebooks and Deliverables
 <a name="Notebooks_deliverables"></a>
