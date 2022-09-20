@@ -171,11 +171,37 @@ The top 10 categories of most reviewed businesses are as follows:
 
 ![top_10_categ_all](https://github.com/adzict/yelp_sentiment_analysis/blob/main/images/top_10_categ_all.png)
 
+Almost the third of total categories in the top 30 reviewed businesses belong to Restaurants. Following categories include American (New), Bars, and Nightlife. It is clear that Restaurants are a dominant category when looking at top-rated businesses, as well as all categories in the dataset. However, looking at all categories Restaurants have a slightly smaller share, and is followed by Shopping, Food. There might be room for an assumption that people tend to review their experience with eating-out more than other consumer experiences. However, Restaurants and similar categories have a dominant share on Yelp, so this assumption might not hold entirely.
+
 ### 2. How often do businesses get reviewed over time?
 <a name="frequency_reviews"></a>
 
+Once I analyzed the dataset, I noticed that the year 2013 has only reviews for the first 5 days of the year. I decided this year will not be taken into consideration. Year 2005 contains reviews from March 2005, and will be excluded as well. Let's see the trend of reviews per year:
+
+![num_reviews_per_year](https://github.com/adzict/yelp_sentiment_analysis/blob/main/images/num_reviews_per_year.png)
+
+Let us see the frequency of ratings of couple of businesses with most reviews over time:
+
+![freq_reviews_four_plot_biz](https://github.com/adzict/yelp_sentiment_analysis/blob/main/images/freq_reviews_four_plot_biz.png)
+
+Highly reviewed businesses such as the Phoenix Sky Airport, and Pizzeria Bianco show a positive trend over the years. The randomly selected two businesses from the list, Joe's Farm Grill and Postino Arcadia show a slightly different story: there was a steady positive trend of number of reviews up until the year 2010 and 2011, and the year 2012 recorded a drop in reviews for both establishments.
+
+This steady growth in reviews can potentially show us these businesses value their customer's feedback, and are creating - as well as actively pursuing - a good business environment.
+
 ### 3. Which business categories get bad reviews?
 <a name="bad_reviews"></a>
+
+I defined a bad review as a review with a rating of 1. These are the top 7 categories of businesses that contain the highest number of bad reviews:
+
+![top_7_categ_bad_reviews](https://github.com/adzict/yelp_sentiment_analysis/blob/main/images/top_7_categ_bad_reviews.png)
+
+When looking at all categories of businesses that get less than 2 stars per review, the highest number of these reviews, almost 50%, goes to Restaurants, followed by Shopping, and Food. 
+
+Now let's see which businesses have the highest number of bad reviews:
+
+![top_15_biz_bad_reviews](https://github.com/adzict/yelp_sentiment_analysis/blob/main/images/top_15_biz_bad_reviews.png)
+
+By looking at categories of top 30 businesses with an aggregated business star less than 2, there is no difference in categories, except the presence of the Automotive category. The highest number of bad reviews goes to US Airways with 95 1-star review, whereas the mean number of 1-star reviews is 43. Again, this indicates that the dominant category in the dataset is Restaurants, and is most often reviewed.
 
 ### 4. Accuracy results of Sentiment Analysis using VADER
 <a name="vader"></a>
