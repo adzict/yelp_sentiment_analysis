@@ -93,27 +93,24 @@ The complete Yelp Dataset can be found on their website: [Yelp Dataset](https://
 
 * Blog post on Yelp Reviews Sentiment Analysis: [project | Yelp Reviews Sentiment Analysis]()
 
+
+### Structure of Notebooks
 <details>
-   <summary>### Structure of Notebooks</summary>
+   <summary>Collapse</summary>
 
-      #### 1. Data Preprocessing and Basic EDA
+      ### 1. Data Preprocessing and Basic EDA
 
-         <ul>
-            <li>1. Imports</li>
-            <li>2. Data</li>
-            <ul>
-               <li>2.1 Business Dataset</li>
-               <li>2.2 Review Dataset</li>
-               <li>2.3 User Dataset</li>
-            </ul>
-            <li>3. Early EDA and Data Cleaning </li>
-            <ul>
-               <li>3.1 Missing values</li>
-               <li>3.2 Duplicate rows</li>
-               <li>3.3 Removing unnecessary features</li>
-            </ul>
-            <li>4. Saving data for the next stage</li>
-         </ul>
+            1. Imports
+            2. Data
+               2.1 Business Dataset
+               2.2 Review Dataset
+               2.3 User Dataset
+            3. Early EDA and Data Cleaning
+               3.1 Missing values
+               3.2 Duplicate rows
+               3.3 Removing unnecessary features
+            4. Saving data for the next stage
+
 
 
 </details>   
