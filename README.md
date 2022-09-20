@@ -17,7 +17,7 @@
    * [3. Which business categories get bad reviews?](#bad_reviews)
    * [4. Accuracy results of Sentiment Analysis using VADER](#vader)
    * [5. Predicting the sentiment using different classifiers](#modeling)
-   * [6. Conclusion and Feature Recommendations](#conclusion)
+   * [6. Conclusion and Future Recommendations](#conclusion)
 7. [ Acknowledgments ](#Acknowledgments)
 8. [ Licences ](#Licences)
 9. [ Contact ](#Contact)
@@ -232,7 +232,7 @@ As part of the project, I performed prediction and eveluation of the reviews usi
 
 
 
-### 6. Conclusion and Feature Recommendations
+### 6. Conclusion and Future Recommendations
 <a name="conclusion"></a>
 
 
