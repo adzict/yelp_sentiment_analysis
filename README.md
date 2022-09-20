@@ -81,11 +81,11 @@ The complete Yelp Dataset can be found on their website: [Yelp Dataset](https://
 
 * [Data](https://github.com/adzict/yelp_sentiment_analysis/tree/main/data) - folder containing processed data
 * [Images](https://github.com/adzict/yelp_sentiment_analysis/tree/main/images) - folder containing assets such as images
-* [1. Data Preprocessing and Basic EDA](https://github.com/adzict/yelp_sentiment_analysis/blob/main/1.%20Data%20Preprocessing%20and%20Basic%20EDA.ipynb)
-* [2. Business Case Data Analysis](https://github.com/adzict/yelp_sentiment_analysis/blob/main/2.%20Business%20Case%20Data%20Analysis.ipynb)
-* [3. Sentiment Analysis](https://github.com/adzict/yelp_sentiment_analysis/blob/main/3.%20Sentiment%20Analysis.ipynb)
-* [4. Modeling and Evaluation]()
-* [Classification.py](https://github.com/adzict/yelp_sentiment_analysis/blob/main/Classification.py)
+* [1. Data Preprocessing and Basic EDA](https://github.com/adzict/yelp_sentiment_analysis/blob/main/1.%20Data%20Preprocessing%20and%20Basic%20EDA.ipynb) - Notebook which contains the process of Basic Data Exploration and Preprocessing
+* [2. Business Case Data Analysis](https://github.com/adzict/yelp_sentiment_analysis/blob/main/2.%20Business%20Case%20Data%20Analysis.ipynb) - Notebook which contains the analysis of relevant questions to the business case 
+* [3. Sentiment Analysis](https://github.com/adzict/yelp_sentiment_analysis/blob/main/3.%20Sentiment%20Analysis.ipynb) - Notebook which contains the Sentiment Analysis of the Yelp reviews
+* [4. Modeling and Evaluation]() - Notebook dedicated to Text preprocessing, Predictive modeling, and Model evaluation
+* [Classification.py](https://github.com/adzict/yelp_sentiment_analysis/blob/main/Classification.py) - Python script which performs model fitting using said classifiers, as well as model evaluation
 
 ## Feature Notebooks and Deliverables
 <a name="Notebooks_deliverables"></a>
