@@ -148,9 +148,8 @@ The complete Yelp Dataset can be found on their website: [Yelp Dataset](https://
                4.4 Random Forest
                4.5 Decision Tree
                4.6 K Neighbors
-               4.7 Support Vector Machines
-               4.8 AdaBoost
-               4.9 XGBoost
+               4.7 AdaBoost
+               4.8 XGBoost
             5. Evaluation
                5.1 Comparing scores from all models
                5.2 Fitting the best model with test data
@@ -165,12 +164,29 @@ Link to the presentation: [presentation.pdf](link here)
 ## Most Important Findings
 <a name="Findings"></a>
 
-summary or most important findings of the project including with important visuals
+### 1. Which categories of businesses are getting top reviews?
+<a name="business_cat"></a>
+
+### 2. How often do businesses get reviewed over time?
+<a name="frequency_reviews"></a>
+
+### 3. Which business categories get bad reviews?
+<a name="bad_reviews"></a>
+
+### 4. Accuracy results of Sentiment Analysis using VADER
+<a name="vader"></a>
+
+### 5. Predicting the sentiment using different classifiers
+<a name="modeling"></a>
+
+### 6. Conclusion and Feature Recommendations
+<a name="conclusion"></a>
+
 
 ## Acknowledgments
 <a name="Acknowledgments"></a>
 
-
+Thanks so much to [awesomeahi95](https://github.com/awesomeahi95) and their Classification.py script because I was able to learn a great deal about creating an usable and bug free script that can be reused for every classification problem, based on their work. 
 
 ## Licenses
 <a name="Licences"></a>
