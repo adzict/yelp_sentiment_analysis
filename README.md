@@ -91,7 +91,7 @@ The complete Yelp Dataset can be found on their website: [Yelp Dataset](https://
 <a name="Notebooks_deliverables"></a>
 ### Blog Posts
 
-* Blog post on Yelp Reviews Sentiment Analysis: [project | Yelp Reviews Sentiment Analysis]()
+* Blog post on Yelp Reviews Sentiment Analysis: [project | Yelp Reviews Sentiment Analysis](https://adzic-tanja.medium.com/project-yelp-reviews-sentiment-analysis-80d067981c01)
 
 
 ### Structure of Notebooks
