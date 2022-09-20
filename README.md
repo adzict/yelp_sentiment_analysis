@@ -79,17 +79,45 @@ The complete Yelp Dataset can be found on their website: [Yelp Dataset](https://
 ### File Descriptions
 <a name="File_Descriptions"></a>
 
-
+* [Data](https://github.com/adzict/yelp_sentiment_analysis/tree/main/data) - folder containing processed data
+* [Images](https://github.com/adzict/yelp_sentiment_analysis/tree/main/images) - folder containing assets such as images
+* [1. Data Preprocessing and Basic EDA](https://github.com/adzict/yelp_sentiment_analysis/blob/main/1.%20Data%20Preprocessing%20and%20Basic%20EDA.ipynb)
+* [2. Business Case Data Analysis](https://github.com/adzict/yelp_sentiment_analysis/blob/main/2.%20Business%20Case%20Data%20Analysis.ipynb)
+* [3. Sentiment Analysis](https://github.com/adzict/yelp_sentiment_analysis/blob/main/3.%20Sentiment%20Analysis.ipynb)
+* [4. Modeling and Evaluation]()
+* [Classification.py](https://github.com/adzict/yelp_sentiment_analysis/blob/main/Classification.py)
 
 ## Feature Notebooks and Deliverables
 <a name="Notebooks_deliverables"></a>
 ### Blog Posts
 
+* Blog post on Yelp Reviews Sentiment Analysis: [project | Yelp Reviews Sentiment Analysis]()
 
-### Structure of Notebooks
+<details>
+   <summary>### Structure of Notebooks</summary>
+
+      #### 1. Data Preprocessing and Basic EDA
+
+         <ul>
+            <li>1. Imports</li>
+            <li>2. Data</li>
+            <ul>
+               <li>2.1 Business Dataset</li>
+               <li>2.2 Review Dataset</li>
+               <li>2.3 User Dataset</li>
+            </ul>
+            <li>3. Early EDA and Data Cleaning </li>
+            <ul>
+               <li>3.1 Missing values</li>
+               <li>3.2 Duplicate rows</li>
+               <li>3.3 Removing unnecessary features</li>
+            </ul>
+            <li>4. Saving data for the next stage</li>
+         </ul>
 
 
-EXAMPLE
+</details>   
+
 
 
 ### Presentation
