@@ -84,7 +84,7 @@ The complete Yelp Dataset can be found on their website: [Yelp Dataset](https://
 * [1. Data Preprocessing and Basic EDA](https://github.com/adzict/yelp_sentiment_analysis/blob/main/1.%20Data%20Preprocessing%20and%20Basic%20EDA.ipynb) - Notebook which contains the process of Basic Data Exploration and Preprocessing
 * [2. Business Case Data Analysis](https://github.com/adzict/yelp_sentiment_analysis/blob/main/2.%20Business%20Case%20Data%20Analysis.ipynb) - Notebook which contains the analysis of relevant questions to the business case 
 * [3. Sentiment Analysis](https://github.com/adzict/yelp_sentiment_analysis/blob/main/3.%20Sentiment%20Analysis.ipynb) - Notebook which contains the Sentiment Analysis of the Yelp reviews
-* [4. Modeling and Evaluation]() - Notebook dedicated to Text preprocessing, Predictive modeling, and Model evaluation
+* [4. Modeling and Evaluation](https://github.com/adzict/yelp_sentiment_analysis/blob/main/4.%20Modeling%20and%20Evaluation.ipynb) - Notebook dedicated to Text preprocessing, Predictive modeling, and Model evaluation
 * [Classification.py](https://github.com/adzict/yelp_sentiment_analysis/blob/main/Classification.py) - Python script which performs model fitting using said classifiers, as well as model evaluation
 
 ## Feature Notebooks and Deliverables
@@ -230,11 +230,16 @@ It is clear that the class "positive" has outnumbered the "negative" and the "ne
 
 As part of the project, I performed prediction and eveluation of the reviews using the following classifiers: Logistic Regression, Multinomial Naive Bayes, Decision Tree, Random Forests, KNN, AdaBoost, and XGBoost. My decision to use these algorithms was based on using a set of different classifiers, from simple to complex, and then evaluate the performance of each algorithm. Prior to fitting models, I have vectorized the data using TfidfVectorizer, and a StandardScaler as my Feature scaling tool. Here are the results of said classifiers:
 
+![models_results](https://github.com/adzict/yelp_sentiment_analysis/blob/main/images/models_results.png)
 
+XGBoost and Logistic Regression displayed best results in the predictive modeling, therefore I would go with using these two algorithms to enhance the results with hyperparameter tuning.
 
 ### 6. Conclusion and Future Recommendations
 <a name="conclusion"></a>
 
+The Yelp Dataset is quite rich on potential it has to help businesses understand customers and their needs. As such, I would definitely continue working on getting better results with sentiment prediction. The prediction results in this project have showed there is room to enhance performance of used algorithms, or use a Neural Network and compare results.
+ 
+As far as the exploration of the dataset goes, I can conclude that customers are more than willing to rate and review their experience with an establishment, especially restaurants and shopping establishments. The trend of sharing your experience is on the rise, and businesses can benefit greatly from such detailed analysis of reviews and ratings their customers leave.
 
 ## Acknowledgments
 <a name="Acknowledgments"></a>
