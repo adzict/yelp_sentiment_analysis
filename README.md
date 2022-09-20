@@ -72,13 +72,14 @@ A very important step is asking questions we need to give answers to. As part of
 ### Data Sources
 <a name="Data_Sources"></a>
 
-link the dataset
+The dataset used for this project can be found on the data.world website: [yelp_reviews.csv](https://data.world/brianray/yelp-reviews)
+
+The complete Yelp Dataset can be found on their website: [Yelp Dataset](https://www.yelp.com/dataset) 
 
 ### File Descriptions
 <a name="File_Descriptions"></a>
 
-The dataset used for this project can be found on the data.world website: [yelp_reviews.csv](https://data.world/brianray/yelp-reviews)
-The complete Yelp Dataset can be found on their website: [Yelp Dataset](https://www.yelp.com/dataset) 
+
 
 ## Feature Notebooks and Deliverables
 <a name="Notebooks_deliverables"></a>
