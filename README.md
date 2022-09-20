@@ -167,6 +167,10 @@ Link to the presentation: [presentation.pdf](link here)
 ### 1. Which categories of businesses are getting top reviews?
 <a name="business_cat"></a>
 
+The top 10 categories of most reviewed businesses are as follows:
+
+![top_10_categ_all](https://github.com/adzict/yelp_sentiment_analysis/blob/main/images/top_10_categ_all.png)
+
 ### 2. How often do businesses get reviewed over time?
 <a name="frequency_reviews"></a>
 
