@@ -1,6 +1,6 @@
 # Yelp Dataset Exploration and Sentiment Analysis
 
-![project_header](link to project header)
+![project_header](https://github.com/adzict/yelp_sentiment_analysis/blob/main/images/yelp_logo.png)
 
 ## Table of Contents
 
