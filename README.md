@@ -159,7 +159,7 @@ The complete Yelp Dataset can be found on their website: [Yelp Dataset](https://
 
 
 ### Presentation
-Link to the presentation: [presentation.pdf](link here)
+Link to the presentation: [Yelp Sentiment Analysis Presentation.pdf](https://github.com/adzict/yelp_sentiment_analysis/blob/main/YELP%20Dataset%20Sentiment%20Analysis%20presentation.pdf)
 
 ## Most Important Findings
 <a name="Findings"></a>
